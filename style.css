@@ -12,13 +12,13 @@ section {
 }
 
 .btn-primary {
-    height: 35px;
+    height: 50px;
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
     border: 0;
-    padding: 10px 20px;
-    font-weight: 400;
+    padding: 20px 30px;
+    font-weight: 700;
     font-size: 20px;
 }
 
@@ -27,7 +27,9 @@ section {
     background-image: url('images/header_bg.png'), url('images/developer.png');
     background-position: bottom right, left;
     background-repeat: no-repeat;
-    background-size: 400px, 40px;
+    /* background-size: 400px, 40px; */
+    width: 1300px;
+    height: 750px;
 
 }
 
@@ -51,8 +53,9 @@ nav ul {
 
 .nav-title {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 70px;
     margin: 30PX 20px;
+    padding-left: 90px;
 }
 
 /* banner style */
@@ -64,13 +67,21 @@ nav ul {
 
 }
 
+.bnr {
+    padding-left: 90px;
+}
+
 .disha {
-    height: 250px;
-    width: 300px;
+    /* height: 250px;
+    width: 300px; */
+    width: 400px;
+    height: 617px;
+
+
 
 }
 
-/* .banner-title {
+.banner-title {
     font-weight: 700px;
     font-size: 85px;
 }
@@ -78,17 +89,18 @@ nav ul {
 .banner-sub-title {
     font-weight: 600px;
     font-size: 45px;
-} */
+}
+
 .banner-dcrp {
     color: #757575;
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
 /* main section */
 main {
-    max-width: 600px;
-    /* max-width: 1140px; */
+    /* max-width: 600px; */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -96,12 +108,14 @@ main {
 .about {
     text-align: center;
     margin-top: 130px;
-
+    padding: 70px 85px;
     background-color: #FFF8F3;
     border-radius: 10px;
-    padding: 10px 15px;
+
     /* padding-left: 100px;
     padding-right: 100px; */
+
+
 
 
 
@@ -109,14 +123,14 @@ main {
 
 .section-title {
     text-align: center;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 40px;
     margin-bottom: 50px;
 }
 
 .section-dcrp {
     color: #757575;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
@@ -126,14 +140,14 @@ main {
 }
 
 .about .info-title {
-    font-size: 15px;
+    font-size: 20px;
 
     color: #757575;
 }
 
 .info-description {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
     color: #474747;
 }
 
@@ -151,14 +165,14 @@ main {
     background-color: white;
     box-shadow: 0px 6px 40px #312f2f;
     border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
 }
 
 .skill-title {
     margin-top: 30px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .skill-description {
